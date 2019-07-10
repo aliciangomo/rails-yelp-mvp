@@ -11,3 +11,23 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+.body {
+  background-color: white;
+}
+
+.navbar {
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+.navbar a {
+  color: grey;
+  text-decoration: none;
+}
+
+.navbar a:active {
+  color: black;
+  text-decoration: underline;
+}
